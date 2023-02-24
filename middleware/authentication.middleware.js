@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken')
 const {JWT_SECRET} = require('../config/env')
 const {User} = require('../model/user')
-const {UNAUTHORIZED} = require('../config/messages.js')
+const {UNAUTHORIZED} = require('../constant/messages.js')
 
 
 const check = (req, res, next) => {

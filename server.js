@@ -5,7 +5,7 @@ const path = require('path')
 const bodyParser = require('body-parser')
 const {db} = require('./model/connect.js');
 const {router} = require('./routes/authentication.routes');
-const {SERVER_CONNECTED} = require('./config/messages.js');
+const {SERVER_CONNECTED} = require('./constant/messages.js');
 const {PORT} = require('./config/env');
 
 
